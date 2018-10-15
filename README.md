@@ -5,7 +5,7 @@
 - 60x60.gcode // example gcode  
 
 - 5 // rhino5 ghx
-  - ~~Write-gcode // 普通の四角形、G93 E0 の部分 Python 側で反映なかった~~  
+  - ~~Write-gcode-ver1 // 普通の四角形、G93 E0 の部分 Python 側で反映なかったXXX~~  
   - Write-gcode-ver2 // 普通の四角形、E0 修正  
 
 ---  
