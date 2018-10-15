@@ -7,6 +7,15 @@
 - 5 // rhino5 ghx
   - ~~Write-gcode-ver1 // 普通の四角形、G93 E0 の部分 Python 側で反映なかったXXX~~  
   - Write-gcode-ver2 // 普通の四角形、E0 修正  
+  - Write-gcode-ver3 // ずらした四角形  
+
+  // cf.  
+  // アトラクタで膨らむグリッドを使って、真ん中がやわらかい感じ？  
+  ![photo](grid.png)  
+  // GH: GRID SPREADING  
+  [http://formularch.blogspot.com/2012/06/gh-grid-spreading.html](http://formularch.blogspot.com/2012/06/gh-grid-spreading.html)  
+
+
 
 ---  
 
