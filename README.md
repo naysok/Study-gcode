@@ -87,7 +87,7 @@ G92 E0
 
 Write-gcode-ver2.ghx までは、2次元パスに、ループ処理でZ座標を足しているんですけど、途中でカタチを変えてくのとかだと、2次元パスが単一ではないので、この方法は変えたほうがいい。  
 
-現状（上の状態から）、3次元に配列したパスから gcode に変換、に設計し直す  
+現状（上の状態から）、3次元に配列したパス（データツリー）から gcode に変換、に実装し直す。  
 これからはパスの方で3次元情報も与えて（2次元のパスを）書く方法に。
 
 造形物の可視化もできるので一石二鳥  
@@ -99,7 +99,30 @@ Write-gcode-ver2.ghx までは、2次元パスに、ループ処理でZ座標を
 ### ghPython で、Datatree  
 
 マジでよくわからない  
+今回は、とりあえず 30x50 のデータツリーを、  
+Flatten した 1500 のリストにして、50 ずつ切り出して使った  
 
+とりあえず OK  
+
+なんか資料はあるけど  
+[http://cu.t-ads.org/tips-datatree-in-python/](http://cu.t-ads.org/tips-datatree-in-python/)  
+
+Grasshopper 1.0 (Rhino6) 以降は、TreeHelper とかいうのがあるっぽい  
+```python
+import ghpythonlib.treehelpers as th
+```
+[https://developer.rhino3d.com/guides/rhinopython/grasshopper-datatrees-and-python/](https://developer.rhino3d.com/guides/rhinopython/grasshopper-datatrees-and-python/)  
+
+
+---  
+
+
+### Printing - 181029  
+
+
+
+
+---  
 
 ---
 
