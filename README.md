@@ -21,10 +21,10 @@
 
 
 
-  // cf.  
-  // アトラクタで膨らむグリッドを使って、真ん中がやわらかい感じ？  
+  cf.  
+  アトラクタで膨らむグリッドを使って、真ん中がやわらかい感じ？  
   ![photo](grid.png)  
-  // GH: GRID SPREADING  
+  GH: GRID SPREADING  
   [http://formularch.blogspot.com/2012/06/gh-grid-spreading.html](http://formularch.blogspot.com/2012/06/gh-grid-spreading.html)  
 
 
@@ -72,6 +72,7 @@ G92 E0
 
 吐出量の調整が必要  
 これは多すぎる  
+卓上の 3D プリンタは、パスの length の 0.1 倍くらいの値が良さそう  
 ![photo](photo/181022-01.jpg)  
 
 
@@ -118,6 +119,28 @@ import ghpythonlib.treehelpers as th
 
 
 ### Printing - 181029  
+
+ベットが綺麗になった。ガラスベットに。  
+ちょっとはがれる  
+![photo](photo/181029-01.jpg)
+
+テスト。  
+剥がれがあるものの、gcode は大丈夫そう。  
+![photo](photo/181029-02.jpg)  
+
+靴のようなもののテスト。  
+UV のサーフェスの走査パスから gcode。  
+![photo](photo/181029-03.jpg)  
+
+![photo](photo/181029-04.jpg)  
+
+![photo](photo/181029-05.jpg)  
+
+
+cf.  
+ナイキ初の3Dプリントによるシューズアッパー開発、ロンドンマラソンで披露  
+![photo](photo/nike_flyprint.jpg)  
+[https://www.fashionsnap.com/article/2018-04-18/nike-flyprint/](https://www.fashionsnap.com/article/2018-04-18/nike-flyprint/)  
 
 
 
