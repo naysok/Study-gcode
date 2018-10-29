@@ -9,13 +9,17 @@
   - ExportFile.ghx // テキストファイル書き出しのテスト用スクリプト、GH_CPython  
 
   - grid-ver1.ghx // 中心点からの距離に応じて変化量の変わるグリッド、線形での移動なのであまり可愛くない  
-  - ~~Write-gcode-ver1.ghx // 普通の四角形、G93 E0 の部分 Python 側で反映なかったXXX~~  
-  - Write-gcode-ver2.ghx // 普通の四角形  
-    // 吐き出し量 E0 修正、速度指定 F4000 追加、gcode ファイル書き出し機能追加、スカート追加  
-  - ~~Write-gcode-ver3.ghx // まだできてない、ずらした四角形~~  
+
+  - ~~Write-gcode-ver1.ghx~~  
+    // 普通の四角形、G93 E0 の部分 Python 側で反映なかった X  
+  - ~~Write-gcode-ver2.ghx // 普通の四角形~~  
+    // 吐き出し量 E0 修正、速度指定 F4000 追加、gcode ファイル書き出し機能追加、スカート追加 X  
+  - ~~Write-gcode-ver2-Desktop.ghx // 普通の四角形~~  
+    // slab の卓上用に、無理やり書き換えた。とりあえずok  
+  - Write-gcode-ver3.ghx  
+    // 3D のポリラインのデータリストから、gcode に変換するように変えた。タイムスタンプと、必要なパラメータを冒頭にコメントを書けるようにした  
 
 
----  
 
   // cf.  
   // アトラクタで膨らむグリッドを使って、真ん中がやわらかい感じ？  
@@ -30,9 +34,7 @@
 ---  
 
 
-
 ### gcode syntax  
-
 
 
 G0 Xnn Ynn Znn Enn Fnn Snn : 高速直線移動  
@@ -66,6 +68,21 @@ G92 E0
 ---  
 
 
+### Printing - 181022  
+
+吐出量の調整が必要  
+これは多すぎる  
+![photo](photo/181022-01.jpg)  
+
+
+成功した  
+181022-Desktop.gcode  
+![photo](photo/181022-02.jpg)  
+
+
+---  
+
+
 ### gh-PointList to gcode  
 
 Write-gcode-ver2.ghx までは、2次元パスに、ループ処理でZ座標を足しているんですけど、途中でカタチを変えてくのとかだと、2次元パスが単一ではないので、この方法は変えたほうがいい。  
@@ -76,6 +93,12 @@ Write-gcode-ver2.ghx までは、2次元パスに、ループ処理でZ座標を
 造形物の可視化もできるので一石二鳥  
 
 
+---  
+
+
+### ghPython で、Datatree  
+
+マジでよくわからない  
 
 
 ---
