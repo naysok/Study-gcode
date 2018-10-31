@@ -143,6 +143,42 @@ cf.
 [https://www.fashionsnap.com/article/2018-04-18/nike-flyprint/](https://www.fashionsnap.com/article/2018-04-18/nike-flyprint/)  
 
 
+---  
+
+
+### gcode Modeling??
+
+
+普通の3Dプリント  
+3D Brep → スライサー → プリント  
+スライス工程がブラックボックス  
+
+ここをハックするための、gcode 生成  
+
+普通のスライスでは普通のものしか作れない  
+
+現状はスライスしていない、良質なポリラインをつくっている、gcode Modeling  
+良質なポリラインを、gcode に変換する    
+
+応用例、案として  
+
+- 縦は通常の PLA 、横はフレックス系の柔らかいもので重ねる  
+
+- Z 方向にも移動して、曲面を仕上げる  
+
+- 内部構造をコントロールした方向異方性を持った物体  
+
+- 積み上げた向きには弱い、一本で行ければ強い。MarkForge のカーボンとか  
+
+- 吐出量の調整で、ひものような陶器↓  
+![photo](photo/gcode-01.jpg)  
+![photo](photo/gcode-02.jpg)  
+![photo](photo/gcode-03.jpg)  
+![photo](photo/gcode-04.jpg)  
+[https://www.instagram.com/p/Bn_MkRNFoDC/?utm_source=ig_share_sheet&igshid=84wlgu7g9y2u&fbclid=IwAR2hwBIkCWpfYokgR3HTqiso7gF6-ca7bJ5GnXU8goyQNyb-bOicC6sbhhg](https://www.instagram.com/p/Bn_MkRNFoDC/?utm_source=ig_share_sheet&igshid=84wlgu7g9y2u&fbclid=IwAR2hwBIkCWpfYokgR3HTqiso7gF6-ca7bJ5GnXU8goyQNyb-bOicC6sbhhg)  
+
+- 吐出量でのテクスチャや、毛の表現  
+// FDM の gcode での表現等の研究をしている明治大学・高橋先生（[https://haruki.xyz/](https://haruki.xyz/)）  
 
 
 ---  
@@ -156,4 +192,9 @@ G-code(RepRap community Wiki) // 本家（英語）
 [https://reprap.org/wiki/G-code](https://reprap.org/wiki/G-code)  
 
 G-code(RepRap community Wiki) // 日本語版   
-[https://reprap.org/wiki/G-code/ja](https://reprap.org/wiki/G-code/ja)
+[https://reprap.org/wiki/G-code/ja](https://reprap.org/wiki/G-code/ja)  
+
+FDM の gcode での表現等の研究をしている明治大学・高橋先生  
+[https://haruki.xyz/](https://haruki.xyz/)  
+
+
