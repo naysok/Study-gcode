@@ -194,7 +194,9 @@ G-code(RepRap community Wiki) // 本家（英語）
 G-code(RepRap community Wiki) // 日本語版   
 [https://reprap.org/wiki/G-code/ja](https://reprap.org/wiki/G-code/ja)  
 
+Grasshopper の gcode 生成のアドオン、silkworm  
+[https://projectsilkworm.com/](https://projectsilkworm.com/)  
+[https://github.com/ProjectSilkworm/Silkworm](https://github.com/ProjectSilkworm/Silkworm)  
+
 FDM の gcode での表現等の研究をしている明治大学・高橋先生  
 [https://haruki.xyz/](https://haruki.xyz/)  
-
-
