@@ -183,6 +183,31 @@ cf.
 
 ---  
 
+
+### Helical Printing - 181105  
+
+
+
+一筆書き、螺旋で巻きながら積み上げる  
+一層目は、普通に 0.2mm。  
+螺旋部分は、0.2mm ピッチ X 1.5倍のレイヤー厚で。  
+
+zが変化するポリラインも gcode にできた。  
+
+フラットな一層目と、螺旋8周、2本のポリライン。  
+
+![photo](photo/Helical-01.jpg)  
+
+綺麗にできてる  
+
+![photo](photo/Helical-02.jpg)  
+
+![photo](photo/Helical-03.jpg)  
+
+
+
+---  
+
 ---
 
 
