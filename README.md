@@ -235,6 +235,28 @@ zが変化するポリラインも gcode にできた。
 棒の下に十字のスカートとか要るかも  
 
 
+---  
+
+
+### Set Extruder Value  
+
+E の値の指定方法を gcode の最初に宣言する  
+M82 と M83  
+
+普通のスライサでスライスすると、M82 になる。  
+値を累計加算する感じ。  
+
+> Makes the extruder interpret extrusion as absolute positions.  
+This is the default in repetier.  
+（[https://reprap.org/wiki/G-code#M82:_Set_extruder_to_absolute_mode](https://reprap.org/wiki/G-code#M82:_Set_extruder_to_absolute_mode)）  
+
+
+その行ごとに解釈するのが、M83  
+
+> Makes the extruder interpret extrusion values as relative positions.  
+（[https://reprap.org/wiki/G-code#M83:_Set_extruder_to_relative_mode](https://reprap.org/wiki/G-code#M83:_Set_extruder_to_relative_mode)）  
+
+
 ---
 
 
