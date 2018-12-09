@@ -103,6 +103,8 @@ Write-gcode-ver2.ghx までは、2次元パスに、ループ処理でZ座標を
 今回は、とりあえず 30x50 のデータツリーを、  
 Flatten した 1500 のリストにして、50 ずつ切り出して使った  
 
+ver3  
+
 とりあえず OK  
 
 なんか資料はあるけど  
@@ -120,9 +122,12 @@ import ghpythonlib.treehelpers as th
 
 ### Printing - 181029  
 
+データはこれ  
+![photo](photo/181029-00.jpg)  
+
 ベットが綺麗になった。ガラスベットに。  
 ちょっとはがれる  
-![photo](photo/181029-01.jpg)
+![photo](photo/181029-01.jpg)  
 
 テスト。  
 剥がれがあるものの、gcode は大丈夫そう。  
@@ -130,6 +135,25 @@ import ghpythonlib.treehelpers as th
 
 靴のようなもののテスト。  
 UV のサーフェスの走査パスから gcode。  
+
+サーフェス  
+
+![photo](photo/181209-01.jpg)  
+
+ポリラインに  
+
+![photo](photo/181209-02.jpg)  
+
+gcode 書き出した  
+
+![photo](photo/181209-03.jpg)  
+
+普通のスライサで、スライスするとこんな感じ  
+
+![photo](photo/181209-04.jpg)  
+
+プリント結果  
+
 ![photo](photo/181029-03.jpg)  
 
 ![photo](photo/181029-04.jpg)  
