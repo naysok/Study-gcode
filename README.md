@@ -35,7 +35,7 @@
 
   cf.  
   アトラクタで膨らむグリッドを使って、真ん中がやわらかい感じ？  
-  ![photo](grid.png)  
+  ![photo](photo/grid.png)  
   GH: GRID SPREADING  
   [http://formularch.blogspot.com/2012/06/gh-grid-spreading.html](http://formularch.blogspot.com/2012/06/gh-grid-spreading.html)  
 
