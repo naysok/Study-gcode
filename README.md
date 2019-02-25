@@ -1,5 +1,17 @@
 # Study-gcode  
 
+
+### Method  
+
+従来の 3D データをスライスする方法では、内部構造などは、汎用のスライサー（スライスソフト）に依存してしまう。  
+
+汎用ソフトで、手の届かない細かな部分まで操作するために、gcode をモデリングするような手法を考えた。  
+
+![photo](photo/Proposed_Method.png)  
+
+---  
+
+
 ### index  
 
 - 60x60.gcode // example gcode  
